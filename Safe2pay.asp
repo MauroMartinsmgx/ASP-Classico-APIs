@@ -1,3 +1,4 @@
+<%
 json =  "{                                                                      "&_
         "            ""IsSandbox"": false,                                      "&_
         "            ""IpAddress"": """&ip&""",                                 "&_
@@ -45,3 +46,4 @@ objhttpPagBol.SetRequestHeader "x-api-key", afiliacao
 objhttpPagBol.Send json
 strResponseStatusw3 = objhttpPagBol.Status & " " & objhttpPagBol.StatusText
 strResponseTextw3 = objhttpPagBol.ResponseText
+%>
