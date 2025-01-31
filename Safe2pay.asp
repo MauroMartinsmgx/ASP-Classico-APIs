@@ -1,4 +1,10 @@
 <%
+
+'Em PaymentMethod
+'2 para cartão de credito
+'6 para pix
+'1 para boleto
+
 json =  "{                                                                      "&_
         "            ""IsSandbox"": false,                                      "&_
         "            ""IpAddress"": """&ip&""",                                 "&_
